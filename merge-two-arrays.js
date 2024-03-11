@@ -10,7 +10,7 @@ function mergeTwoArrays(arr1, arr2) {
 
 console.log(mergeTwoArrays([0, 3, 4, 31], [4, 6, 30]));
 
-// Method
+// Method - 1 : Without using any js built-in methods
 
 function mergeTwoArrs(arr1, arr2) {
 	const mergedArray = [];

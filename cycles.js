@@ -6,6 +6,7 @@ function cycle(input) {
 
     return function() {
         const currentVal = inputArr[index];
+        // % helps in resetting index if index values goes beyond input length.
         index = (index + 1) % inputArr.length;
         return currentVal;
     }

@@ -5,6 +5,7 @@ function kangarooJump(x1, v1, x2, v2) {
 		return "YES";
 	}
 
+	// if x1 !== x2 and v1 === v2 
 	if (v1 === v2) {
 		return "NO";
 	}
