@@ -14,7 +14,6 @@ function findDifference(nums1, nums2) {
 console.log(findDifference([1, 2, 3], [2, 4, 6]));
 
 // Method 2
-
 function findDifference(nums1, nums2) {
 	const set1 = new Set(nums1),
 		set2 = new Set(nums2);
