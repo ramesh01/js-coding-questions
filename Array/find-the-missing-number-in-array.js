@@ -2,7 +2,7 @@
 
 function missingNumberInAnArray(arr) {
 	const N = arr.length + 1;
-	const expectedSum = (N * (N + 1)) / 2;
+	const expectedSum = (N * (N + 1)) / 2; // sum of the first N natural numbers.
 
 	const actualSum = arr.reduce((acc, next) => acc + next, 0);
 	const missingNumber = expectedSum - actualSum;
